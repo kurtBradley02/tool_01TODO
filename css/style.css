@@ -1,0 +1,21 @@
+/* style.css */
+
+/* Style for the table */
+#todo-table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+}
+
+/* Style for table headers and cells */
+#todo-table th,
+#todo-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}

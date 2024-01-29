@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TODO List</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Link to your CSS file -->
+  </head>
+  <body>
+    <div class="selection-bar">
+      See all: <input type="file" id="file-input" accept=".txt" /> Done:
+      <input type="file" id="file-input2" accept=".txt" /> In Progress:
+      <input type="file" id="file-input3" accept=".txt" /> Not Started:
+      <input type="file" id="file-input4" accept=".txt" />
+    </div>
+
+    <hr />
+
+    <table id="todo-table">
+      <thead>
+        <tr>
+          <th>TODO Description</th>
+          <th>Priority Level</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+
+      <tbody id="todo-items"></tbody>
+    </table>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

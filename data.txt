@@ -1,0 +1,3 @@
+Buy groceries, High, Done
+Complete project report, Medium, In progress
+Call the electrician, Low, Not Started
